@@ -1,0 +1,43 @@
+.welcome {
+    background: url(../img/lamp-background-small.jpg) no-repeat;
+    background-size: 100%;
+
+    @media (min-width: 768px) {
+        background: linear-gradient(to left, white 0%, transparent 25%), url(../img/lamp-background-small.jpg) no-repeat;
+        background-size: 51%; 
+    }
+}
+
+.welcome__wrapper {
+    max-width: $desktop-width;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: rgba(244, 238, 238, 0.8);
+
+    @media (min-width: 768px) {
+        padding-left: 24px;
+        padding-right: 24px;
+        width: 50%;
+        margin: 0;
+        margin-left: auto;
+    }
+
+    @media (min-width: $desktop-width) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.welcome__title {
+    @include title-h1;
+    margin-bottom: 20px; 
+}
+
+.welcome__text {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
