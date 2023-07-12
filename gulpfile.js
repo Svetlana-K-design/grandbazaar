@@ -186,6 +186,6 @@ exports.default = gulp.series(
 //GhPages
 
 gulp.task('deploy', function() {
-  return gulp.src('./dist/**/*')
+  return gulp.src('./build/**/*')
     .pipe(ghPages());
 });

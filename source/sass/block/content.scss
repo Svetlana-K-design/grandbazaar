@@ -106,9 +106,6 @@
 }
 
 .content__desc button {
-    display: none;
-
-    @media(min-width: $tablet-width) {
         cursor: pointer;
         display: inline-block;
         text-align: left;
@@ -130,7 +127,6 @@
         &:active {
             opacity: 1;
         }
-    }
 }
 
 .content__button {
@@ -140,6 +136,7 @@
     padding: 0;
     padding-bottom: 3px;
     cursor: pointer;
+    color: $black-basic;
     
   
     &:hover {

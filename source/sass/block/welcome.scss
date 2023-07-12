@@ -1,6 +1,6 @@
 .welcome {
     background: url(../img/lamp-background-small.jpg) no-repeat;
-    background-size: 100%;
+    background-size: cover;
 
     @media (min-width: 768px) {
         background: linear-gradient(to left, white 0%, transparent 25%), url(../img/lamp-background-small.jpg) no-repeat;
